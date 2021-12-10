@@ -13,6 +13,7 @@ import com.example.databasekotlin.database.entities.Author
 import com.example.databasekotlin.ui.theme.DatabaseKotlinTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -25,6 +26,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 }
 
 @Composable
